@@ -1,0 +1,14 @@
+name = "amazon-s3-astro-workers"
+main = "dist/_worker.js"
+compatibility_date = "2025-04-01"
+compatibility_flags = [ "nodejs_compat" ]
+
+[assets]
+directory="dist"
+binding="ASSETS"
+
+[vars]
+AWS_KEY_ID=""
+AWS_REGION_NAME=""
+AWS_S3_BUCKET_NAME=""
+AWS_SECRET_ACCESS_KEY=""
